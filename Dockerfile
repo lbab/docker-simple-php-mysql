@@ -1,4 +1,4 @@
-FROM shafan/docker-php5-apache-avec-locales-french:1.2
+FROM shafan/php5_apache_with_french_locale:1.2
 MAINTAINER Pierre Galvez <pierre@lbab.fr>
 
 RUN docker-php-ext-install mysql
